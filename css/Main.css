@@ -1,0 +1,40 @@
+body {
+    background: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+@font-face {
+  font-family: Quicksand;
+  src: url(../assests/font/Quicksand-Bold.ttf);
+}
+
+.lang-th {
+  font-family: 'Prompt', sans-serif;
+}
+
+.lang-en {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.g1 {
+  background: linear-gradient(90deg, #2836f5, #2e80ec, #908ee7);
+  border: none;
+}
+
+.img-shadow {
+  -webkit-filter: drop-shadow(2px 2px 2px #222 );
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.img-crop {
+  width: 250px;
+  height: 100px;
+  overflow: hidden;
+}

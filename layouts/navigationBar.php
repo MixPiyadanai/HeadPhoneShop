@@ -1,8 +1,8 @@
 <header class="header">
     <div class="header__container">
-        <img src="Assests/img/profilepic.jpg" alt="" class="header__img" data-bs-toggle="modal" data-bs-target="#AdminLogin">
+        <img src="Assests/img/663328.png" alt="" class="header__img" data-bs-toggle="modal" data-bs-target="#LoginModal">
 
-        <a href="#" class="header__logo">Project Website For Learning Introductory Graphics (DEMO)</a>
+        <a href="#" class="header__logo" style="font-family:Quicksand ;animation-name: tracking-in-expand;animation-duration: 0.7s;">HeadPhone Shop (DEMO)</a>
 
         <div class="header__search">
             <input type="search" placeholder="Search" class="header__input">
@@ -19,7 +19,7 @@
       <div>
           <a href="#" class="nav__link nav__logo">
               <i class='bx bx-paint nav__icon'></i>
-              <span class="nav__logo-name">Learning</span>
+              <span class="nav__logo-name">HeadPhone</span>
           </a>
 
           <div class="nav__list">
@@ -34,22 +34,17 @@
                   <div class="nav__dropdown">
                       <a href="#" class="nav__link">
                           <i class='bx bx-book-alt nav__icon' ></i>
-                          <span class="nav__name">E-Learning</span>
+                          <span class="nav__name">Product</span>
                           <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                       </a>
 
                       <div class="nav__dropdown-collapse">
                           <div class="nav__dropdown-content">
-                              <a href="Application/Illustrator/Ai.html" class="nav__dropdown-item">Illustrator</a>
-                              <a href="#" class="nav__dropdown-item">Photoshop</a>
+                              <a href="Application/Illustrator/Ai.html" class="nav__dropdown-item">HeadPhones</a>
+                              <a href="#" class="nav__dropdown-item">ETC</a>
                           </div>
                       </div>
                   </div>
-
-                  <a href="#" class="nav__link">
-                      <i class='bx bx-user nav__icon' ></i>
-                      <span class="nav__name">Account</span>
-                  </a>
               </div>
           </div>
       </div>
