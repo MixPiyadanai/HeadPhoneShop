@@ -29,8 +29,9 @@
     include 'layouts/index/featuredModal.php';
     include 'layouts/index/productListCard.php';
     include 'layouts/index/productListModal.php';
-    ?>
+    include 'layouts/index/listStockTable.php';
 
+    ?>
 
 
 

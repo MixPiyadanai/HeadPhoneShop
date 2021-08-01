@@ -7,10 +7,10 @@
       </div>
       <div class="modal-body">
         <img src="assests/img/Emblem_Inazuma.png" class="img-shadow img-center" width="40%">
-        <form>
+        <form action="user.php">
           <div class="mb-3">
             <label for="InputUser" class="form-label" style="font-family: 'Prompt', sans-serif;">ชื่อผู้ใช้</label>
-            <input type="email" class="form-control" id="InputUser" placeholder="ชื่อผู้ใช้" style="font-family: 'Prompt', sans-serif;">
+            <input type="text" class="form-control" id="InputUser" placeholder="ชื่อผู้ใช้" style="font-family: 'Prompt', sans-serif;">
           </div>
           <div class="mb-3">
             <label for="InputPassword" class="form-label" style="font-family: 'Prompt', sans-serif;">รหัสผ่าน</label>

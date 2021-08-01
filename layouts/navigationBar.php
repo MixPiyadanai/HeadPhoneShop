@@ -26,25 +26,16 @@
               <div class="nav__items">
                   <h3 class="nav__subtitle">Menu</h3>
 
-                  <a href="" class="nav__link active">
+                  <a href="index.php" class="nav__link active">
                       <i class='bx bx-home nav__icon' ></i>
                       <span class="nav__name">Home</span>
                   </a>
                   
-                  <div class="nav__dropdown">
-                      <a href="#" class="nav__link">
-                          <i class='bx bx-book-alt nav__icon' ></i>
-                          <span class="nav__name">Product</span>
-                          <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                      </a>
-
-                      <div class="nav__dropdown-collapse">
-                          <div class="nav__dropdown-content">
-                              <a href="Application/Illustrator/Ai.html" class="nav__dropdown-item">HeadPhones</a>
-                              <a href="#" class="nav__dropdown-item">ETC</a>
-                          </div>
-                      </div>
-                  </div>
+                  <a href="cart.php" class="nav__link">
+                      <i class='bx bx-cart-alt nav__icon' ></i>
+                      <span class="nav__name">Cart</span>
+                  </a>
+                  
               </div>
           </div>
       </div>
