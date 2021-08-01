@@ -2,7 +2,7 @@
     <div class="header__container">
         <img src="Assests/img/663328.png" alt="" class="header__img" data-bs-toggle="modal" data-bs-target="#LoginModal">
 
-        <a href="#" class="header__logo" style="font-family:Quicksand ;animation-name: tracking-in-expand;animation-duration: 0.7s;">HeadPhone Shop (DEMO)</a>
+        <a href="#" class="header__logo" style="font-family:Quicksand ;animation-name: tracking-in-expand;animation-duration: 0.7s;">SupremeStyleSheet.HeadPhoneShop</a>
 
         <div class="header__search">
             <input type="search" placeholder="Search" class="header__input">
@@ -19,7 +19,7 @@
       <div>
           <a href="#" class="nav__link nav__logo">
               <i class='bx bx-paint nav__icon'></i>
-              <span class="nav__logo-name">HeadPhone</span>
+              <span class="nav__logo-name">SSS.HPshop</span>
           </a>
 
           <div class="nav__list">

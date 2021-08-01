@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,56 +12,32 @@
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/titleEntranceAni.css">
     <link rel="stylesheet" href="css/Card.css">
-    <title>HeadPhone Store</title>
-    <?php 
-        include 'layouts/googleFont.php';
+    <title>SSS.HeadPhoneShop</title>
+    <?php
+    include 'layouts/googleFont.php';
     ?>
 </head>
+
 <body>
     <?php
-        include 'layouts/navigationBar.php';
-        include 'layouts/index/loginFormModal.php';
-        
+    include 'layouts/navigationBar.php';
+    include 'layouts/index/loginFormModal.php';
     ?>
     <div class="container pt-5">
-        <div class="row">
-            <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 pb-3">
-                <div class="card" style="width: 100%;">
-                <img src="assests/img/world2019.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text lang-th">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 pb-3">
-                <div class="card" style="width: 100%;">
-                <img src="assests/img/world2019.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 pb-3">
-                <div class="card" style="width: 100%;">
-                <img src="assests/img/world2019.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 pb-3">
-                <div class="card" style="width: 100%;">
-                <img src="assests/img/world2019.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        
+    <?php 
+    include 'layouts/index/featuredCard.php';
+    include 'layouts/index/featuredModal.php';
+    include 'layouts/index/productListCard.php';
+    include 'layouts/index/productListModal.php';
+    ?>
+
+
+
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="JavaScripts/main.js"></script>
 </body>
+
 </html>
